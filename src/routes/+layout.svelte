@@ -1,34 +1,34 @@
 <script lang="ts">
-    import "../app.css";
+	import "../app.css";
 </script>
 
 <div id="content">
-    <aside id="columnLeft"><slot name="columnLeft"/></aside>
-    <div id="mainContent">
-        <header>
-            <nav><img src="/logo.svg" alt="VIVY logo" height="30"></nav>
-        </header>
-        <main><slot/></main>
-    </div>
-    <aside id="columnRight"><slot name="columnRight"/></aside>
+	<aside id="columnLeft"><slot name="columnLeft" /></aside>
+	<div id="mainContent">
+		<header>
+			<nav><a href="/"><img src="/logo.svg" alt="VIVY logo" height="30" /></a></nav>
+		</header>
+		<main><slot /></main>
+	</div>
+	<aside id="columnRight"><slot name="columnRight" /></aside>
 </div>
 
-<footer/>
+<footer />
 
 <style>
-    #content {
-        display: flex;
-    }
+	#content {
+		display: flex;
+	}
 
-    #columnLeft {
-        flex: 20%;
-    }
+	#columnLeft {
+		flex: 20%;
+	}
 
-    #columnRight {
-        flex: 20%;
-    }
+	#columnRight {
+		flex: 20%;
+	}
 
-    #mainContent {
-        flex: 60%;
-    }
+	#mainContent {
+		flex: 60%;
+	}
 </style>
