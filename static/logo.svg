@@ -1,0 +1,29 @@
+<svg width="720" height="200" viewBox="0 0 720 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+<style>
+@media (prefers-color-scheme: light) {
+    circle { stroke: #04a5e5; }
+    path#logo { stroke: #04a5e5; }
+    path#wordmark { fill: #04a5e5; }
+}
+</style>
+<g clip-path="url(#clip0_9_17)">
+<g clip-path="url(#clip1_9_17)">
+<circle cx="100" cy="100" r="90" stroke="#89dceb" stroke-width="20"/>
+<path id="logo" d="M167.861 48L100 181.937L32.1385 48L167.861 48Z" stroke="#89dceb" stroke-width="10" stroke-linejoin="round"/>
+</g>
+<g clip-path="url(#clip2_9_17)">
+<path id="wordmark" d="M254.699 25L290.407 138.965H291.778L327.559 25H362.186L311.256 175H271.002L220 25H254.699ZM411.204 25V175H379.968V25H411.204ZM463.594 25L499.303 138.965H500.674L536.454 25H571.081L520.151 175H479.898L428.895 25H463.594ZM580.206 25H615.194L648.883 89.5996H650.325L684.014 25H719.002L665.114 121.973V175H634.095V121.973L580.206 25Z" fill="#89dceb"/>
+</g>
+</g>
+<defs>
+<clipPath id="clip0_9_17">
+<rect width="720" height="200" fill="white"/>
+</clipPath>
+<clipPath id="clip1_9_17">
+<rect width="200" height="200" fill="white"/>
+</clipPath>
+<clipPath id="clip2_9_17">
+<rect width="500" height="150" fill="white" transform="translate(220 25)"/>
+</clipPath>
+</defs>
+</svg>

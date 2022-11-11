@@ -1,0 +1,46 @@
+@import "@catppuccin/palette/style";
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap");
+
+body {
+	background: var(--ctp-mocha-base);
+	color: var(--ctp-mocha-text);
+
+	/* Tailwind's sans font stack, very pretty */
+	font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+		"Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+		"Segoe UI Symbol", "Noto Color Emoji";
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: Inter;
+	font-weight: 700;
+}
+
+a {
+	color: var(--ctp-mocha-rosewater);
+}
+
+::selection {
+	background: var(--ctp-mocha-surface2);
+}
+
+@media (prefers-color-scheme: light) {
+	body {
+		background: var(--ctp-latte-base);
+		color: var(--ctp-latte-text);
+	}
+
+	a {
+		color: var(--ctp-latte-rosewater);
+	}
+
+	::selection {
+		background: var(--ctp-latte-surface2);
+	}
+}
