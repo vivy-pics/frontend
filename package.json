@@ -14,11 +14,14 @@
 	"devDependencies": {
 		"@sveltejs/adapter-auto": "next",
 		"@sveltejs/kit": "next",
+		"@types/beyonk__gdpr-cookie-consent-banner": "^9.0.0",
 		"@typescript-eslint/eslint-plugin": "^5.27.0",
 		"@typescript-eslint/parser": "^5.27.0",
+		"cssnano": "^5.1.14",
 		"eslint": "^8.16.0",
 		"eslint-config-prettier": "^8.3.0",
 		"eslint-plugin-svelte3": "^4.0.0",
+		"postcss": "^8.4.19",
 		"prettier": "^2.6.2",
 		"prettier-plugin-svelte": "^2.7.0",
 		"svelte": "^3.44.0",
@@ -31,7 +34,7 @@
 	"type": "module",
 	"packageManager": "yarn@3.2.4",
 	"dependencies": {
-		"@catppuccin/palette": "^0.1.5",
-		"cssnano": "^5.1.14"
+		"@beyonk/gdpr-cookie-consent-banner": "^9.0.4",
+		"@catppuccin/palette": "^0.1.5"
 	}
 }
