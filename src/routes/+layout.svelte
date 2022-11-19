@@ -71,7 +71,7 @@
 	}
 
 	footer {
-		background: var(--ctp-mocha-crust);
+		background: var(--crust);
 
 		padding: 16px;
 
@@ -82,11 +82,5 @@
 
 	#version {
 		opacity: 0.7;
-	}
-
-	@media (prefers-color-scheme: light) {
-		footer {
-			background: var(--ctp-latte-crust);
-		}
 	}
 </style>

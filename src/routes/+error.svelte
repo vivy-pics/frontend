@@ -34,13 +34,7 @@
 
 <style>
 	aside {
-		color: var(--ctp-mocha-overlay1);
-	}
-
-	@media (prefers-color-scheme: light) {
-		aside {
-			color: var(--ctp-latte-overlay1);
-		}
+		color: var(--overlay1);
 	}
 
 	summary {

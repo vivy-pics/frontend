@@ -1,10 +1,10 @@
-@import "@catppuccin/palette/style";
+@import "./colors.css";
 
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap");
 
 body {
-	background: var(--ctp-mocha-base);
-	color: var(--ctp-mocha-text);
+	background: var(--base);
+	color: var(--text);
 
 	/* Tailwind's sans font stack, very pretty */
 	font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
@@ -25,24 +25,9 @@ h6 {
 }
 
 a {
-	color: var(--ctp-mocha-rosewater);
+	color: var(--rosewater);
 }
 
 ::selection {
-	background: var(--ctp-mocha-surface2);
-}
-
-@media (prefers-color-scheme: light) {
-	body {
-		background: var(--ctp-latte-base);
-		color: var(--ctp-latte-text);
-	}
-
-	a {
-		color: var(--ctp-latte-rosewater);
-	}
-
-	::selection {
-		background: var(--ctp-latte-surface2);
-	}
+	background: var(--surface2);
 }

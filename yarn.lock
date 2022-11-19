@@ -5,15 +5,6 @@ __metadata:
   version: 6
   cacheKey: 8
 
-"@beyonk/gdpr-cookie-consent-banner@npm:^9.0.4":
-  version: 9.0.4
-  resolution: "@beyonk/gdpr-cookie-consent-banner@npm:9.0.4"
-  dependencies:
-    js-cookie: ^3.0.1
-  checksum: e78d2116520a4b1ed22310fee3562003df0d8352b251ec69394ae5b7d6d78475c2d007d91057ef578cae7b805e679313b43c8a8acc7c7fa75227fb0c55fa5d66
-  languageName: node
-  linkType: hard
-
 "@catppuccin/palette@npm:^0.1.5":
   version: 0.1.5
   resolution: "@catppuccin/palette@npm:0.1.5"
@@ -294,13 +285,6 @@ __metadata:
   version: 0.2.0
   resolution: "@trysound/sax@npm:0.2.0"
   checksum: 11226c39b52b391719a2a92e10183e4260d9651f86edced166da1d95f39a0a1eaa470e44d14ac685ccd6d3df7e2002433782872c0feeb260d61e80f21250e65c
-  languageName: node
-  linkType: hard
-
-"@types/beyonk__gdpr-cookie-consent-banner@npm:^9.0.0":
-  version: 9.0.0
-  resolution: "@types/beyonk__gdpr-cookie-consent-banner@npm:9.0.0"
-  checksum: 01c8300030408b71046320d8e95728838aadfbab50cecfcfa63c0c2d9bf5a98865095287d033b8bda084dd7fe18abe49d73ca86574144051de2f3f7fad95e866
   languageName: node
   linkType: hard
 
@@ -1679,11 +1663,9 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "frontend@workspace:."
   dependencies:
-    "@beyonk/gdpr-cookie-consent-banner": ^9.0.4
     "@catppuccin/palette": ^0.1.5
     "@sveltejs/adapter-auto": next
     "@sveltejs/kit": next
-    "@types/beyonk__gdpr-cookie-consent-banner": ^9.0.0
     "@typescript-eslint/eslint-plugin": ^5.27.0
     "@typescript-eslint/parser": ^5.27.0
     cssnano: ^5.1.14
@@ -2070,13 +2052,6 @@ __metadata:
   version: 2.0.0
   resolution: "isexe@npm:2.0.0"
   checksum: 26bf6c5480dda5161c820c5b5c751ae1e766c587b1f951ea3fcfc973bafb7831ae5b54a31a69bd670220e42e99ec154475025a468eae58ea262f813fdc8d1c62
-  languageName: node
-  linkType: hard
-
-"js-cookie@npm:^3.0.1":
-  version: 3.0.1
-  resolution: "js-cookie@npm:3.0.1"
-  checksum: bb48de67e2a6bd1ae3dfd6b2d5a167c33dd0c5a37e909206161eb0358c98f17cb55acd55827a58e9eea3630d89444e7479f7938ef4420dda443218b8c434a4c3
   languageName: node
   linkType: hard
 

@@ -14,7 +14,6 @@
 	"devDependencies": {
 		"@sveltejs/adapter-auto": "next",
 		"@sveltejs/kit": "next",
-		"@types/beyonk__gdpr-cookie-consent-banner": "^9.0.0",
 		"@typescript-eslint/eslint-plugin": "^5.27.0",
 		"@typescript-eslint/parser": "^5.27.0",
 		"cssnano": "^5.1.14",
@@ -34,7 +33,6 @@
 	"type": "module",
 	"packageManager": "yarn@3.2.4",
 	"dependencies": {
-		"@beyonk/gdpr-cookie-consent-banner": "^9.0.4",
 		"@catppuccin/palette": "^0.1.5"
 	}
 }
