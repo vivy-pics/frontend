@@ -1,7 +1,7 @@
 <script lang="ts">
-	import { PUBLIC_API_URL, PUBLIC_RECAPTCHA_SITE_KEY } from "$env/static/public";
+	import { PUBLIC_API_URL } from "$env/static/public";
 	import { page } from "$app/stores";
-	import Recaptcha from "../../../components/Recaptcha.svelte";
+	import Turnstile from "../../../components/Turnstile.svelte";
 	import { goto } from "$app/navigation";
 
 	const { params } = $page;
@@ -11,7 +11,7 @@
 			method: "POST",
 			body: JSON.stringify({
 				token: params.token,
-				recaptcha: token
+				turnstile: token
 			}),
 			headers: {
 				"Content-Type": "application/json"
@@ -28,5 +28,4 @@
 </script>
 
 <h1>E-Mail Verification</h1>
-<p>Please verify that you are not a robot by completing the following captcha:</p>
-<Recaptcha siteKey={PUBLIC_RECAPTCHA_SITE_KEY} {verifyCallback} />
+<Turnstile {verifyCallback} action="email-verification" data={params.token} />
